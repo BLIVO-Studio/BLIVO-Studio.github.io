@@ -3,14 +3,13 @@
                 background-color: #172026;
                 height: 100%;
             }
-            /*<블리보 고, 블리보 바로가기*/
+            /*<블리보 로고, 블리보 바로가기*/
             h1{
                 font-size: 60x;
                 font-family: 'Noto Sans KR', sans-serif;
                 background-color: #172026;
-                height: 50px;
+                height: 0px;
                 width: 100%;
-                padding-inline-start: 2%;
             }
             /*이미지 위치*/
             
@@ -20,15 +19,8 @@
                 font-size: 50px;
                 text-decoration: none;
             }
-            b{
-                text-align: center;
-                color: white;
-            }
-            c{
-                color: #172026;
-            }
-
-
+            
+            
 *{padding:0;margin:0}
 li{list-style:none}
 a{text-decoration:none;font-size:14px}
@@ -36,6 +28,7 @@ a{text-decoration:none;font-size:14px}
     width: 800px;
     overflow: hidden;
     margin: 150px auto;
+    font-size: 10px;
   }
   
   .menu > li {
@@ -43,25 +36,29 @@ a{text-decoration:none;font-size:14px}
     float: left;
     text-align: center;
     line-height: 40px;
-    background-color: #5778ff;
+    background-color: #172026;
   }
   
   .menu a {
-    color: #fff;
+    color: white;
   }
   
   .submenu > li {
     line-height: 50px;
-    background-color: #94a9ff;
+    background-color: white;
   }
-  
+  /*드롭메뉴 텍스트 컬러*/
+  p{
+    color: #172026;
+    font-family: 'Noto Sans KR', sans-serif;
+  }
   .submenu {
     height: 0; /*ul의 높이를 안보이게 처리*/
     overflow: hidden;
   }
   .menu > li:hover {
-    background-color: #94a9ff;
-    transition-duration: 0.5s;
+    background-color: white;
+    transition-duration: 1s;
   }
   
   .menu > li:hover .submenu {
