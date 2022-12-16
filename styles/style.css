@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap' );
             body{
                 background-color: #172026;
-                height: 100%;
+                height: 2000px;
             }
             /*<블리보 로고, 블리보 바로가기*/
-            h1{
-                font-size: 60x;
-                font-family: 'Noto Sans KR', sans-serif;
-                background-color: #172026;
-                height: 0px;
-                width: 100%;
-            }
+            
             /*이미지 위치*/
             
             a{
@@ -25,14 +19,13 @@
 li{list-style:none}
 a{text-decoration:none;font-size:14px}
 .menu {
-    width: 800px;
+    width: 100%;
     overflow: hidden;
     margin: 150px auto;
-    font-size: 10px;
   }
   
   .menu > li {
-    width: 20%; /*20*5=100%*/
+    width: 20%;
     float: left;
     text-align: center;
     line-height: 40px;
@@ -42,18 +35,16 @@ a{text-decoration:none;font-size:14px}
   .menu a {
     color: white;
   }
-  
   .submenu > li {
     line-height: 50px;
     background-color: white;
   }
-  /*드롭메뉴 텍스트 컬러*/
   p{
     color: #172026;
     font-family: 'Noto Sans KR', sans-serif;
   }
   .submenu {
-    height: 0; /*ul의 높이를 안보이게 처리*/
+    height: 0; 
     overflow: hidden;
   }
   .menu > li:hover {
@@ -62,5 +53,5 @@ a{text-decoration:none;font-size:14px}
   }
   
   .menu > li:hover .submenu {
-    height: 250px; /*서브메뉴 li한개의 높이 50*5*/
-    transition-duration: 1s;}
+    height: 250px; 
+    transition-duration: 0.5s;}
