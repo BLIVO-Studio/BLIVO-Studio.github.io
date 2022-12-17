@@ -1,19 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap' );
-            body{
-                background-color: #172026;
-                height: 2000px;
-            }
-            /*<블리보 로고, 블리보 바로가기*/
-            
-            /*이미지 위치*/
-            
-            a{
-                font-family: 'Noto Sans KR', sans-serif;
-                color: white;
-                font-size: 50px;
-                text-decoration: none;
-            }
-            
+
+html{
+  display: block;
+}
+head{
+  display: none;
+}
+body{
+  background-color: #172026;
+  font-family: 'Noto Sans KR', sans-serif;
+  height: 100%;  
+}
+/*<블리보 로고, 블리보 바로가기*/
+/*이미지 위치*/
+
+/*모든 폰트*/
+a{
+  color: white;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+
+div{
+  display: block;
+}
+
+
+
+.logo_area{
+  font-size: 40px;
+  left: 10px;
+
+  position: relative;
+}
+.logo_area_logo_text{
+  left: none;
+  top: -4px;
+  font-size: 30px;
+  position: relative;
+}
+    
             
 *{padding:0;margin:0}
 li{list-style:none}
@@ -41,7 +68,6 @@ a{text-decoration:none;font-size:14px}
   }
   p{
     color: #172026;
-    font-family: 'Noto Sans KR', sans-serif;
   }
   .submenu {
     height: 0; 
@@ -55,3 +81,42 @@ a{text-decoration:none;font-size:14px}
   .menu > li:hover .submenu {
     height: 250px; 
     transition-duration: 0.5s;}
+
+
+/*down space for info*/
+.bottom_space{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  float: left;
+  bottom: 0 auto;
+}
+.bottom_text_link{
+  position: relative;
+  float: left;
+}
+
+/*bottom space*/
+.bottom_space{
+  padding-top: 25px;
+}
+
+/*footer*/
+.list_bottom .bottom_text_link+.bottom_text_link::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
+.bottom_text_link_last::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
