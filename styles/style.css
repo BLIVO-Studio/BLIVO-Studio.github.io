@@ -9,9 +9,13 @@ head{
 body{
   background-color: #172026;
   font-family: 'Noto Sans KR', sans-serif;
-  height: 100%;  
 }
-/*<블리보 로고, 블리보 바로가기*/
+/*wrapper*/
+.wrapper{
+  margin: 10%;
+  width: 1000px;
+}
+
 /*이미지 위치*/
 
 /*모든 폰트*/
@@ -20,19 +24,10 @@ a{
   font-size: 50px;
   text-decoration: none;
 }
-
-
-div{
-  display: block;
-}
-
-
-
 .logo_area{
-  font-size: 40px;
-  left: 10px;
-
-  position: relative;
+    position: relative;
+    height: 100%;
+    margin: 3%;
 }
 .logo_area_logo_text{
   left: none;
@@ -56,7 +51,6 @@ a{text-decoration:none;font-size:14px}
     float: left;
     text-align: center;
     line-height: 40px;
-    background-color: #172026;
   }
   
   .menu a {
@@ -89,16 +83,19 @@ a{text-decoration:none;font-size:14px}
   width: 100%;
   height: 400px;
   float: left;
-  bottom: 0 auto;
 }
 .bottom_text_link{
   position: relative;
   float: left;
+  text-align: center;
+  line-height: 0 auto;
 }
 
 /*bottom space*/
 .bottom_space{
-  padding-top: 25px;
+  padding: 0 auto;
+  width: 100%;
+  height: 40px;
 }
 
 /*footer*/
