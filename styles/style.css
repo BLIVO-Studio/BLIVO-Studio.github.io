@@ -20,7 +20,7 @@ body{
 /*모든 폰트*/
 a{
   color: white;
-  font-size: 50px;
+
   text-decoration: none;
 }
 .logo_area{
@@ -38,6 +38,11 @@ a{
 *{padding:0;margin:0}
 li{list-style:none}
 a{text-decoration:none;font-size:14px}
+@media only screen and (max-device-width: 500px){
+  /*font-size 14px로 변경
+  임시로 30px은 모바일만 표시하게 해둠*/
+  a{text-decoration: none;font-size: 30px;}
+}
 .menu {
     width: 100%;
     overflow: hidden;
@@ -116,4 +121,3 @@ a{text-decoration:none;font-size:14px}
   vertical-align: -1px;
 }
 /*모바일 css*/
-@import url(main_page_mobile.css) only screen and (max-device-width: 500px) and (orientation: landscape);
