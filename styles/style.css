@@ -13,7 +13,6 @@ body{
 /*wrapper*/
 .wrapper{
   margin: 10%;
-  width: 1000px;
 }
 
 /*이미지 위치*/
@@ -30,7 +29,6 @@ a{
     margin: 1%;
 }
 .logo_area_logo_text{
-  left: none;
   top: -4px;
   font-size: 30px;
   position: relative;
@@ -117,3 +115,5 @@ a{text-decoration:none;font-size:14px}
   background-color: #e4e8eb;
   vertical-align: -1px;
 }
+/*모바일 css*/
+@import url(main_page_mobile.css) only screen and (max-device-width: 500px) and (orientation: landscape);
