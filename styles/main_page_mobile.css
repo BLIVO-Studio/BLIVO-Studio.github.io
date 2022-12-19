@@ -9,3 +9,45 @@ html{
     background-color: #172026;
     font-family: 'Noto Sans KR', sans-serif;
   }
+
+
+  /*모바일 메뉴 탭*/
+  *{padding:0;margin:0}
+li{list-style:none}
+a{text-decoration:none;font-size:20px}
+.menu {
+    width: 100%;
+    overflow: hidden;
+    margin: 150px auto;
+    font-size: 20px;
+  }
+  
+  .menu > li {
+    width: 20%;
+    float: left;
+    text-align: center;
+    line-height: 40px;
+  }
+  
+  .menu a {
+    color: white;
+  }
+  .submenu > li {
+    line-height: 50px;
+    background-color: white;
+  }
+  p{
+    color: #172026;
+  }
+  .submenu {
+    height: 0; 
+    overflow: hidden;
+  }
+  .menu > li:hover {
+    background-color: white;
+    transition-duration: 1s;
+  }
+  
+  .menu > li:hover .submenu {
+    height: 250px; 
+    transition-duration: 0.5s;}
