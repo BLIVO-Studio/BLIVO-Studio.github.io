@@ -14,15 +14,28 @@ body{
 .wrapper{
   margin: 10%;
 }
+@media only screen and (max-device-width: 500px){
+  .wrapper{
+    margin: 7%;
+  }
+}
 
 /*이미지 위치*/
 
 /*모든 폰트*/
 a{
   color: white;
-
+  font-size: 14px;
   text-decoration: none;
 }
+@media only screen and (max-device-width: 500px){
+  a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
 .logo_area{
     position: relative;
     height: 100%;
@@ -33,15 +46,31 @@ a{
   font-size: 30px;
   position: relative;
 }
+@media only screen and (max-device-width: 500px){
+  .logo_img{
+    width: 40px; height: 40px;
+  }
+}
+@media only screen and (max-device-width: 500px){
+  .logo_area_logo_text{
+    top: -4px;
+    font-size: 40px;
+    position: relative;
+  }
+}
     
             
 *{padding:0;margin:0}
 li{list-style:none}
-a{text-decoration:none;font-size:14px}
+.menu_text{text-decoration:none;font-size:14px}
+/*menu css 정리하기*/
+.menu_text{
+  color: white;
+}
 @media only screen and (max-device-width: 500px){
   /*font-size 14px로 변경
   임시로 30px은 모바일만 표시하게 해둠*/
-  a{text-decoration: none;font-size: 30px;}
+  .menu_text{text-decoration: none;font-size: 25px;}
 }
 .menu {
     width: 100%;
