@@ -61,27 +61,27 @@ a{
 
 /*bottom space*/
 .bottom_space{
-    padding: 0 auto;
-    width: 100%;
-    height: 40px;
-  }
-  
-  /*footer*/
-  .list_bottom .bottom_text_link+.bottom_text_link::before{
-    content: "";
-    display: inline-block;
-    width: 1px;
-    height: 11px;
-    margin: 0 8px;
-    background-color: #e4e8eb;
-    vertical-align: -1px;
-  }
-  .bottom_text_link_last::before{
-    content: "";
-    display: inline-block;
-    width: 1px;
-    height: 11px;
-    margin: 0 8px;
-    background-color: #e4e8eb;
-    vertical-align: -1px;
-  }
+  padding: 0 auto;
+  width: 100%;
+  height: 40px;
+}
+
+/*footer*/
+.list_bottom .bottom_text_link+.bottom_text_link::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
+.bottom_text_link_last::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
