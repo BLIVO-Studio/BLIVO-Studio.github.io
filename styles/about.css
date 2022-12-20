@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;700;900&display=swap' );
+
+html{
+  display: block;
+}
+head{
+  display: none;
+}
+body{
+  background-color: #172026;
+  font-family: 'Noto Sans KR', sans-serif;
+}
+/*wrapper*/
+.wrapper{
+  margin: 10%;
+}
+@media only screen and (max-device-width: 500px){
+  .wrapper{
+    margin: 7%;
+  }
+}
+
+/*이미지 위치*/
+
+/*모든 폰트*/
+a{
+  color: white;
+  font-size: 14px;
+  text-decoration: none;
+}
+@media only screen and (max-device-width: 500px){
+  a{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+  }
+}
+
+.logo_area{
+    position: relative;
+    height: 100%;
+    margin: 1%;
+}
+.logo_area_logo_text{
+  top: -4px;
+  font-size: 30px;
+  position: relative;
+}
+@media only screen and (max-device-width: 500px){
+  .logo_img{
+    width: 40px; height: 40px;
+  }
+}
+@media only screen and (max-device-width: 500px){
+  .logo_area_logo_text{
+    top: -4px;
+    font-size: 40px;
+    position: relative;
+  }
+}
+  
+
+/*down space for info*/
+.bottom_space{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+
+*{padding:0;margin:0}
+.bottom_text_link{
+  position: relative;
+  list-style: none;
+  float: left;
+  text-align: center;
+  line-height: 0 auto;
+}
+
+/*bottom space*/
+.bottom_space{
+  padding: 0 auto;
+  width: 100%;
+  height: 40px;
+}
+
+/*footer*/
+.list_bottom .bottom_text_link+.bottom_text_link::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
+.bottom_text_link_last::before{
+  content: "";
+  display: inline-block;
+  width: 1px;
+  height: 11px;
+  margin: 0 8px;
+  background-color: #e4e8eb;
+  vertical-align: -1px;
+}
