@@ -37,26 +37,26 @@ a{
 }
 
 .logo_area{
-    position: relative;
-    height: 100%;
-    margin: 1%;
+  position: relative;
+  height: 100%;
+  margin: 1%;
 }
 .logo_area_logo_text{
+top: -4px;
+font-size: 30px;
+position: relative;
+}
+@media only screen and (max-device-width: 500px){
+.logo_img{
+  width: 40px; height: 40px;
+}
+}
+@media only screen and (max-device-width: 500px){
+.logo_area_logo_text{
   top: -4px;
-  font-size: 30px;
+  font-size: 40px;
   position: relative;
 }
-@media only screen and (max-device-width: 500px){
-  .logo_img{
-    width: 40px; height: 40px;
-  }
-}
-@media only screen and (max-device-width: 500px){
-  .logo_area_logo_text{
-    top: -4px;
-    font-size: 40px;
-    position: relative;
-  }
 }
   
 
