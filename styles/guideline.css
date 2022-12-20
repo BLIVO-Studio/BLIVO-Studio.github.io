@@ -58,6 +58,24 @@ a{
     position: relative;
   }
 }
+  
+
+/*down space for info*/
+.bottom_space{
+  position: relative;
+  width: 100%;
+  height: 400px;
+  float: left;
+}
+
+*{padding:0;margin:0}
+.bottom_text_link{
+  position: relative;
+  list-style: none;
+  float: left;
+  text-align: center;
+  line-height: 0 auto;
+}
 
 /*bottom space*/
 .bottom_space{
