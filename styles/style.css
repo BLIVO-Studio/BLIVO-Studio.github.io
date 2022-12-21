@@ -5,6 +5,7 @@ html{
 }
 head{
   display: none;
+  background-color: #172026;
 }
 body{
   background-color: #172026;
@@ -58,8 +59,14 @@ a{
     position: relative;
   }
 }
-    
-            
+
+/**dropdown menu**/
+
+.menu_area{
+  margin: 0 auto;
+  padding: 1%;
+}
+
 *{padding:0;margin:0}
 li{list-style:none}
 .menu_text{text-decoration:none;font-size:14px}
@@ -74,6 +81,8 @@ li{list-style:none}
 }
 .menu {
     width: 100%;
+    position: relative;
+    top: -150px;
     overflow: hidden;
     margin: 150px auto;
   }
@@ -83,6 +92,7 @@ li{list-style:none}
     float: left;
     text-align: center;
     line-height: 40px;
+    border-radius: 20px;
   }
   
   .menu a {
@@ -95,18 +105,24 @@ li{list-style:none}
   p{
     color: #172026;
   }
+
   .submenu {
     height: 0; 
     overflow: hidden;
   }
+
   .menu > li:hover {
     background-color: white;
     transition-duration: 1s;
   }
   
   .menu > li:hover .submenu {
-    height: 250px; 
-    transition-duration: 0.5s;}
+    height: 250px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition-duration: 0.5s;
+  }
+
 
 
 /*down space for info*/
@@ -149,4 +165,8 @@ li{list-style:none}
   background-color: #e4e8eb;
   vertical-align: -1px;
 }
+
+/*slide img*/
+
+
 /*모바일 css*/
